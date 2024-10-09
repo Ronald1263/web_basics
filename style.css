@@ -1,3 +1,14 @@
-h1{
-    color: blueviolet;
+body {
+    font-family: Arial, sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
