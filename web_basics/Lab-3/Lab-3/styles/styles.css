@@ -1,0 +1,54 @@
+i, em, span, b, strong {
+    color: green;
+    text-decoration: underline;
+  }
+  
+  ol, ul {
+    border: 1px solid lightcoral;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  h1, h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  p, ol, ul {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .pages{
+    color: green;
+  }
+
+  .poslannya{
+    display: flex;
+    color:blueviolet
+  }
+
+  .baner{
+  width: 70%; 
+  height: auto;
+  }
