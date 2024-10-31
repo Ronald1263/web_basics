@@ -1,0 +1,84 @@
+/* 1. додайте клас до h1 і зробіть весь текст для класу заглавними літерами (text-transform: uppercase) */
+.h1-uppercase {
+    text-transform: uppercase;
+  }
+  
+  /* 2. придумайте назву класа для списку цілей і встановіть колір шрифту червоним у шістнадцятковому форматі */
+  .goals-list {
+    color: #ff0000;
+  }
+  
+  /* 3. пунктам списку цілей за класом дайте колір заднього фону yellow і нахилений шрифт (font-style: italic) */
+  .goals-list .list__item {
+    background-color: yellow;
+    font-style: italic;
+  }
+  
+  /* 4. для усіх впорядкованих списків задайте рамку 1px solid red */
+  ol {
+    border: 1px solid red;
+    padding: 10px;
+  }
+  
+  /* 5. задайте id (ідентифікатор) для заголовку першого рівня і встановіть на нього колір шрифта green */
+  #main-header {
+    color: green;
+  }
+  
+  /* 6. для всіх посилань на PDF-документи встановити стиль: колір зелений і font-style: italic */
+  a[href$=".pdf"] {
+    color: green;
+    font-style: italic;
+  }
+  
+  /* 7. для всіх посилань встановити колір шрифта violet та забрати підкреслення (text-decoration: none) */
+  a {
+    color: violet;
+    text-decoration: none;
+  }
+  
+  /* 8. Встановіть всі заглавні літери (text-transform: uppercase) для усіх вкладнених списків другого рівня */
+  ul ul, ol ol {
+    text-transform: uppercase;
+  }
+  
+  /* 9. для всіх посилань що знаходяться всередині абзаців встановити колір шрифта magenta і задній фон кольору mistyrose */
+  p a {
+    color: magenta;
+    background-color: mistyrose;
+  }
+  
+  /* 10. створити клас bold який буде будь-який текст перетворювати на жирний */
+  .bold {
+    font-weight: bold;
+  }
+  
+  /* 11. для всіх тегів li з класом bold встановити всі заглавні літери */
+  li.bold {
+    text-transform: uppercase;
+  }
+  
+  /* 12. вирівняйте по правому краю, додайте синю рамку та встановіть розмір шрифта 20px */
+  .second-paragraph, .contact-us {
+    text-align: right;
+    border: 1px solid blue;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  /* 13. на тег h1 встановіть колір шрифта червоний */
+  h1 {
+    color: red; /* Це не спрацює через більш специфічне правило для #main-header */
+  }
+  
+  /* 14. встановіть властивість box-sizing: border-box */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* 15. задній фон цілей обмежити довжиною елементів */
+  .goals-list .list__item span {
+    display: inline;
+    background-color: yellow;
+  }
+  
