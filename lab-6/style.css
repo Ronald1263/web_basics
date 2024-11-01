@@ -1,0 +1,86 @@
+/* Загальні стилі */
+body {
+    font-family: serif;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #777;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Заголовки */
+h1, h2 {
+    font-family: 'Cormorant Infant', serif;
+    letter-spacing: 0.5px;
+    color: black;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 26px;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+/* Абзаци */
+p {
+    text-align: justify;
+}
+
+.double-line {
+    line-height: 2;
+}
+
+/* Списки */
+ul ul {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.our-adv {
+    background-image: url('http://picsum.photos/id/357/700/400?blur=5');
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    color: white;
+    font-size: 16px;
+    list-style-position: inside;
+    padding-left: 20px;
+}
+
+/* Блок пошти */
+.mail-box {
+    width: 150px;
+    background-color: #E3FFF6;
+    border: 5px solid #C2E4C2;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.mail-box a {
+    word-wrap: break-word;
+    display: block;
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.mail-box a:hover {
+    text-decoration: underline;
+}
+
+/* Службовий стиль */
+.ruler {
+    width: 150px;
+    background-color: lime;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
